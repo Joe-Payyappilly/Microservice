@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a90e2;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.table td, .table th {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #f5a623;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #d0021b;
+    border: none;
+}
+
+.btn-info {
+    background-color: #50e3c2;
+    border: none;
+}
+
+.input-group {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.input-group input {
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.alert {
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+textarea {
+    resize: none;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    background: #f8f9fa;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item .btn {
+    float: right;
+}

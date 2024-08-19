@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  movie-service:
+    build:
+      context: ./movie-service
+      
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+
+  review-service:
+    build:
+      context: ./review-service
+      
+    ports:
+      - "5001:5001"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
