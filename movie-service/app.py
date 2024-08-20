@@ -52,7 +52,7 @@ def delete_movie(title):
 
 @app.route('/add_review_ui/<title>')
 def add_review_ui(title):
-    return redirect(f'http://review-service:5001/?movie_title={title}')  # Updated to use Docker service name
+    return redirect(f'http://localhost:5001/?movie_title={title}')  # Updated to use Docker service name
 
 @app.route('/movie/<title>/reviews')
 def movie_reviews(title):
